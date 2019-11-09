@@ -69,7 +69,12 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
+
+       Args:
+        df - Pandas DataFrame
+       """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -91,7 +96,12 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """
+    Displays statistics on the most popular stations and trip.
+        
+       Args:
+        df - Pandas DataFrame
+    """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -131,13 +141,18 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """
+    Displays statistics on bikeshare users.
+        
+       Args:
+        df - Pandas DataFrame
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
     # TO DO: Display counts of user types
-    print('Counts of User Types:')
+    print('\nCounts of User Types:')
     print(df['User Type'].value_counts())
         
 
@@ -162,6 +177,9 @@ def display_data(df):
     """
     Display contents of the CSV file to the display as requested by
     the user.
+        
+       Args:
+        df - Pandas DataFrame
     """
 
     start_loc = 0
