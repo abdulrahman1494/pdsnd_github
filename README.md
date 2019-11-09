@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+2019/11/9
 
 ### Project Title
-Replace the Project Title
+Bikeshare stats software
 
 ### Description
 Describe what your project is about and what it does
