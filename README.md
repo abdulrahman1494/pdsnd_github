@@ -14,7 +14,11 @@ new_york_city.csv
 washington.csv
 
 ### Credits
+<<<<<<< HEAD
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
 ### Fixes Made
 improved commits messages
+=======
+credits goes to udacity
+>>>>>>> documentation
