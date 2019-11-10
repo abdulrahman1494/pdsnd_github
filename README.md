@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ### Date created
 2019/11/9
+=======
+#### Date Created 
+Include the date you created this project and README file.
+>>>>>>> refactoring
 
 ### Project Title
 Bikeshare stats software
